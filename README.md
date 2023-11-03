@@ -8,6 +8,9 @@
 <p>O sistema realiza validação dos campos de entrada utlizando cores, para facilitar a interação com o usuário.</p>
 <p>O projeto foi feito utilizando Flexbox e Grid. </p>
 
+![formcapa](https://github.com/marislaradev/devquest-validation-form/assets/121054908/89997d62-5d33-47fb-93a7-33a6ee18241a)
+
+
 <br>
 
 <h3>Recursos Principais✨</h3>
@@ -23,6 +26,8 @@
 <p>2- A validação do formulário ocorrerá quando você tentar enviar o formulário.</p>
 <p>3- Se algum campo não estiver preenchido corretamente ficará com a borda verde, senão, uma mensagem de erro será exibida e o campo ficará com a borda vermelha.</p>
 <p>4- O formulário será enviado apenas quando todos os campos obrigatórios estiverem preenchidos corretamente.</p>
+
+![gifform](https://github.com/marislaradev/devquest-validation-form/assets/121054908/cafc34de-6664-4a64-a2f6-f5b78b0f06f0)
 
 <br>
 
