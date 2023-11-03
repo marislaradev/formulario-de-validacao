@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('../images/bg-repeat.jpg');
+    background-repeat: repeat-x;
+    width: 800px;
+    height: 402px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 111px;
+    color: var(--cor-do-texto);
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.texto-titulo {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario {
+    padding: 15px;
+    background-color: var(--cor-fundo-formulario);
+} 
+
+.botao-enviar {
+    background-color: var(--cor-do-botao);
+    color: var(--cor-letra-botao);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    width: 298px;
+    transition: all 0.2s ease-out;
+}
+
+.botao-enviar:hover {
+    filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+}
+
+.alerta-campos-obrigatorios {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.mensagem-erro {
+    display: none;
+    font-size: 8px;
+    font-weight: 400;
+    color: var(--cor-erro);
+    min-height: 1em;
+}
+
+.campo-container {
+    margin-bottom: 10px;
+}
+
+.campo {
+    width: 298px;
+    padding: 8px;
+    border: 1px solid var(--cor-borda-campo-formulario);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cor-placeholder-campo);
+}
+
+.campo-mensagem {
+    padding: 8px;
+    border: 1px solid var(--cor-borda-campo-formulario);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cor-placeholder-campo);
+}
+
+.campo-vazio {
+    border: 1px solid var(--cor-erro);
+}
+
+.campo-preenchido {
+    border: 1px solid var(--cor-preenchimento-correto);
+}

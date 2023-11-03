@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quest HTML/CSS/JS intermediário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-texto">
+        <div class="texto">
+          <h1 class="titulo">
+            FICOU COM DÚVIDA? <br />
+            NOS MANDE UMA MENSAGEM!
+          </h1>
+          <p class="texto-titulo">
+            Caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem
+            e entraremos em contato em menos de 24hr.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-formulario">
+          <form id="formulario">
+            <div class="campo-container">
+              <input
+                type="text"
+                name="nome-completo"
+                id="nome-completo"
+                placeholder="Nome completo *"
+                class="campo"
+              />
+              <span class="mensagem-erro">Campo obrigatório</span>
+            </div>
+
+            <div class="campo-container">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="E-mail *"
+                class="campo"
+              />
+              <span class="mensagem-erro">Campo obrigatório</span>
+            </div>
+
+            <div class="campo-container">
+              <input
+                type="text"
+                name="telefone"
+                id="telefone"
+                placeholder="Telefone"
+                class="campo"
+              />
+              <span class="mensagem-erro">Campo obrigatório</span>
+            </div>
+
+            <div class="campo-container">
+              <textarea
+                name="mensagem"
+                id="mensagem"
+                cols="33"
+                rows="5"
+                placeholder="Mensagem *"
+                class="campo-mensagem"
+              ></textarea>
+              <span class="mensagem-erro">Campo obrigatório</span>
+            </div>
+            
+            <p class="alerta-campos-obrigatorios">* Campos obrigatórios</p>
+            <input
+              type="button"
+              class="botao-enviar"
+              value="ENVIAR"
+              />
+          </form>
+      </div>
+    </div>
+  </body>
+  <script src="src/js/validarCampos.js"></script>
+</html>

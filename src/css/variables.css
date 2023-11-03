@@ -1,0 +1,11 @@
+:root {
+    --fonte-padrao: 'Roboto', sans-serif;
+    --cor-do-botao: #3CCC87;
+    --cor-letra-botao: white;
+    --cor-erro: #F52E2E;
+    --cor-preenchimento-correto: #00c22b;
+    --cor-placeholder-campo:  #A8A8A8;
+    --cor-fundo-formulario: white;
+    --cor-do-texto: white;
+    --cor-borda-campo-formulario: black;
+}
