@@ -113,3 +113,36 @@ body {
 .campo-preenchido {
     border: 1px solid var(--cor-preenchimento-correto);
 }
+
+@media (max-width: 630px) {
+    body {
+        align-items: flex-start; 
+    }
+    
+    .container {
+        width: 100%; 
+        grid-template-columns: 1fr; 
+    }
+
+    .container-texto {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .container-formulario {
+        align-items: flex-start; 
+    }
+
+    #formulario {
+        width: 100%; 
+    }
+
+    .botao-enviar {
+        width: 100%; 
+    }
+
+    .campo,
+    .campo-mensagem {
+        width: 100%; 
+    }
+}
