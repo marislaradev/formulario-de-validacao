@@ -2,14 +2,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 100vh;
+    background-image: url('../images/bg-repeat.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .container {
-    background-image: url('../images/bg-repeat.jpg');
-    background-repeat: repeat-x;
-    width: 800px;
-    height: 402px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -49,6 +50,7 @@ body {
 
 #formulario {
     padding: 15px;
+    border-radius: 5px;
     background-color: var(--cor-fundo-formulario);
 } 
 

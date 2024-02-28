@@ -35,9 +35,6 @@ botaoEnviar.addEventListener("click", (evento) => {
     }
   });
 
-  // if (temCampoVazio) {
-  //   evento.preventDefault();
-  // }
   if (!temCampoVazio) {
     const formulario = document.querySelector("#formulario");
     formulario.submit();
