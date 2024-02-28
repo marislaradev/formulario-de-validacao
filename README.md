@@ -42,7 +42,7 @@
 <br>
 
 <h3>Como acessar o projeto pelo Github Pages 🖱</h3>
-<p>É só clicar <a href="https://marislaradev.github.io/devquest-validation-form/" target="_blank" >aqui🔗</a> e conferir!</p>
+<p>É só clicar <a href="https://marislaradev.github.io/formulario-de-validacao/" target="_blank" >aqui🔗</a> e conferir!</p>
 
 
 
